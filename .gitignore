@@ -1,44 +1,23 @@
 # Node modules
 node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
-# Next.js build output
+# Build & cache
 .next/
 out/
-build/
-
-# Production
 dist/
-*.local
-*.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.cache/
+coverage/
 
 # Logs
-logs/
 *.log
-pids/
-*.pid
-*.seed
-*.pid.lock
 
-# OS files
+# OS
 .DS_Store
 Thumbs.db
 
-# Editor files
-.vscode/
-.idea/
-*.sublime-workspace
-*.sublime-project
-
-# Misc
-coverage/
-*.tgz
-.cache/
+# Packages
 *.zip
-node_modules
+*.tgz
+
+# Env files
+.env*
